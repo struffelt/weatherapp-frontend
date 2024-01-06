@@ -1,0 +1,11 @@
+.search {
+    background-image: url(../assets//magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 32px;
+    text-indent: 8px;
+}
