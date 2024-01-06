@@ -13,9 +13,14 @@
     align-self: stretch;
     flex-grow: 1;
     border: none;
+    border-right: 1px solid grey;
     text-indent: 4px;
 }
 
 .search:focus {
     outline: none;
+}
+
+.icon {
+    width: 32px;
 }
