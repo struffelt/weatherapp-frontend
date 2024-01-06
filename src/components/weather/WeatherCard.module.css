@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template:
+        [row1-start] "location location location icon" [row1-end]
+        [row2-start] "temperature temperature wind wind" [row2-end];
+
+    grid-template-columns: 64px 64px 64px 64px;
+    padding: 16px;
+    background-color: #EAEAEA;
+    border-radius: 5%;
+    width: 256px;
+    height: 96px;
+}
+
+.paragraph {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.location {
+    grid-area: location;
+    display: flex;
+    flex-direction: column;
+}
+
+.city {
+    font-size: 24px;
+}
+
+.temperature {
+    grid-area: temperature;
+    justify-self: left;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wind {
+    grid-area: wind;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.weatherIcon {
+    grid-area: icon;
+    justify-self: end;
+}

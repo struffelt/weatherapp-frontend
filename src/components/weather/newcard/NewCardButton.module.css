@@ -1,0 +1,12 @@
+.button {
+    background-color: white;
+    width: 288px;
+    height: 128px;
+
+    border: 4px dashed #5E747F;
+    border-radius: 5%;
+}
+
+.plus {
+    height: 50%;
+}
