@@ -1,11 +1,21 @@
-.search {
-    background-image: url(../assets//magnifying-glass-solid.svg);
-    background-repeat: no-repeat;
-    background-position: right 8px center;
+.container {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+
     background-color: white;
-    border-radius: 8px;
-    border: none;
+    border-radius: 16px;
     width: 250px;
     height: 32px;
-    text-indent: 8px;
+}
+
+.search {
+    align-self: stretch;
+    flex-grow: 1;
+    border: none;
+    text-indent: 4px;
+}
+
+.search:focus {
+    outline: none;
 }
