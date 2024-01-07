@@ -1,0 +1,24 @@
+{
+    "location":
+    {
+        "name":"Aachen",
+        "region":"Nordrhein-Westfalen",
+        "country":"Germany",
+        "lat":50.77,
+        "lon":6.11,
+        "tz_id":"Europe/Berlin",
+        "localtime":"2024-01-07 19:32"
+    },
+    "current":
+    {
+        "last_updated":"2024-01-07 19:30",
+        "temp_c":-1.0,
+        "condition":
+        {
+            "text":"Overcast",
+            "icon":"//cdn.weatherapi.com/weather/64x64/night/122.png",
+            "code":1009
+        },
+        "wind_kph":28.1
+    }
+}
